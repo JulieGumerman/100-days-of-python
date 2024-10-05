@@ -5,20 +5,17 @@ sorted = []
 for num in number_array:
     if sorted == []:
         sorted.append(num)
-    elif len(sorted) == 1:
-        if num > sorted[0]:
-            sorted.insert(1,num)
-        elif num == sorted[0]:
-            sorted.insert(0,num)
-        elif sorted[0] > num:
-            sorted.insert(0,num)
-    else:
+    if sorted != []:
         for num_sort in sorted:
-            if num_sort > num:
-                sorted.insert(sorted.index(num_sort),num)
-            if num_sort.index(num_sort) == len(num_sort - 1) 
+            print(num)
+            sorted.insert(0,num)
+            print(sorted)
+    #         if num_sort > num or num_sort == num:
+    #             sorted.insert(sorted.index(num_sort),num)
+    #         if sorted.index(num_sort) == (len(number_array)-1):
+    #             sorted.insert(len(sorted), num)
 
-
+print(sorted)
     #pull num from in array; set as variable
     #run number by each other number in sorted array
     #if smaller than num[0], put at beginning
