@@ -6,7 +6,7 @@ for i in range(len(number_array)):
     if sorted == []:
         sorted.append(number_array.pop(0))
     if sorted != []:
-        
+
 
 print(sorted)
 print(number_array)
