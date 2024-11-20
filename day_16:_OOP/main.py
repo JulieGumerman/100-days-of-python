@@ -4,6 +4,7 @@ import OOP_review
 OOP_review.reverie.poodleFurz("floof")
 
 towanda = Turtle()
+towanda.shape("turtle")
 
 print(towanda)
 
