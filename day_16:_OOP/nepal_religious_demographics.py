@@ -12,4 +12,5 @@ table.add_row(["Prakriti (nature worship)",.5])
 
 table.add_column("ethnic breakdown", ["majority of all Nepali ethnic groups", "Sherpa, Dolpa, Lopa and other ethnic groups of the mountain regions","Madhesh Muslims (of Middle Eastern descent)","Kirati","n/a","unknown"])
 
+table.align = "l"
 print(table)
