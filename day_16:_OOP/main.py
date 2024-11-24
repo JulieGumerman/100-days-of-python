@@ -11,6 +11,8 @@ towanda.left(100)
 towanda.forward(35)
 towanda.right(80)
 towanda.forward(95)
+towanda.circle(90,500)
+towanda.forward(100)
 
 print(towanda)
 
