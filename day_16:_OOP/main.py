@@ -5,6 +5,12 @@ OOP_review.reverie.poodleFurz("floof")
 
 towanda = Turtle()
 towanda.shape("turtle")
+towanda.color("dark magenta")
+towanda.setpos(50,50)
+towanda.left(100)
+towanda.forward(35)
+towanda.right(80)
+towanda.forward(95)
 
 print(towanda)
 
